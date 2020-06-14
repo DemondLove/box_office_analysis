@@ -1,0 +1,96 @@
+/* globalStyle.css */
+
+body {
+      font-family: 'Arial Narrow', sans-serif;
+      /*background-color: darkgray;*/
+      margin: 4% auto;
+      padding: 20px;
+      width: 90%;
+}
+
+table, th, td {
+               border: 0.5px ridge grey;
+               border-collapse: collapse;
+}
+
+#page_header {
+              font-style: italic;
+}
+
+#page_subtext {
+               font-style: oblique;
+}
+
+.body_header {
+              text-transform: uppercase;
+              color: darkred;
+              border-bottom: 0.5px solid black;
+}
+
+#poster {
+         float: left;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 50%;
+}
+
+#upper_table {
+               
+               /* Center Title */
+               text-align: center;
+               
+               /* Center Table */
+               margin-left:auto;
+               margin-right:auto;
+}
+
+#upper_grid {
+       display: grid;
+       grid-template-columns: 50% 50%;
+}
+
+#lower_grid {
+              display: grid;
+              grid-template-columns: 25% 25%;
+              grid-column-gap: 3%;
+              border-top: 1px solid black;
+}
+
+#calc_bar {
+        border-bottom: 0.5px solid black;
+}
+
+#page {
+        display: grid;
+        grid-template-rows: 5% 25% 70%;
+        grid-row-gap: 12.5%;
+}
+
+nav_bar {
+        display: inline;
+}
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+}
+
+li {
+        float: left;
+}
+
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+
+li a:hover {
+        background-color: #111;
+}
